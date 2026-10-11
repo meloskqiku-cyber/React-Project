@@ -21,10 +21,11 @@ createRoot(document.getElementById("root")!).render(
         <ThemeContextProvider>
           <WindowContextProvider>
             <App />
+            <App />
           </WindowContextProvider>
         </ThemeContextProvider>
       </AuthContextProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
